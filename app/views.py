@@ -4,7 +4,7 @@ from app.models import *
 from django.views.generic import TemplateView,ListView
 
 class school(TemplateView):
-    template_name='school_list.html'
+    template_name='app\home.html'
     
 class school_list(ListView):
     model=School
